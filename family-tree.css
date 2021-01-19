@@ -1,0 +1,31 @@
+.usr-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#family-tree .rootperson {
+  color: blue;
+  text-align: center;
+}
+
+#family-tree .person {
+  color: blue;
+}
+
+#family-tree .selected {
+  color: red;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
